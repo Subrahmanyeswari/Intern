@@ -1,0 +1,19 @@
+class ThisKeyword
+{
+	void m()
+	{
+		System.out.println("m method is invoked");
+	}
+	void n()
+	{
+		System.out.println("n method is invoked");
+		//m(); 
+		//or
+		this.m();
+	}
+	public static void main(String[] args)
+	{
+		ThisKeyword tw=new ThisKeyword();
+		tw.n();
+	}
+}

@@ -1,0 +1,44 @@
+// invoke current class constructor
+//calling default constructor from parameterized constructor
+/*
+class ThisKeyword 
+{
+	ThisKeyword()
+	{
+		System.out.println("constructor is invoked");
+	}
+	ThisKeyword(int a)
+	{
+		this();
+		System.out.println("parameterized constructor is invoked "+ a);
+		
+		
+	}
+	public static void main(String[] args)
+	{
+		
+		ThisKeyword tw=new ThisKeyword(10);
+		
+	}
+}
+*/
+
+//calling parameterized constructor from default constructor
+/*
+class ThisKeyword
+{
+	ThisKeyword()
+	{
+		this(5);
+		System.out.println("default constructor");
+	}
+	ThisKeyword(int i)
+	{
+	System.out.println("parameterized constructor: "+i);	
+	}
+	public static void main(String[] args)
+	{
+		ThisKeyword tw=new ThisKeyword();
+	}
+}
+*/

@@ -1,0 +1,18 @@
+public class ThisKeyword {
+	int id;
+	String name;
+	ThisKeyword(int id, String name)
+	{
+		id=id;
+		name=name;
+	}
+	void display()
+	{
+		System.out.println(id+" "+name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        ThisKeyword tw=new ThisKeyword(12,"priya");
+        tw.display();
+	}

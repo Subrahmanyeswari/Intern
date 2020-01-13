@@ -1,0 +1,29 @@
+class ThisKeyword
+ 
+{
+	int id;
+	String name;
+	String dept;
+	ThisKeyword(int id,String name)
+	{
+		this.id=id;
+		this.name=name;
+	}
+	ThisKeyword(int id,String name,String dept)
+	{
+		this(id,name); 
+		
+		this.dept=dept;
+	}
+	void display()
+	{
+		System.out.println(id+" "+name+" "+dept);
+	}
+	public static void main(String[] args)
+	{
+		ThisKeyword tw1=new ThisKeyword(111,"priyanka");
+		tw1.display();
+		ThisKeyword tw2=new ThisKeyword(111,"priyanka","CSE");
+		tw2.display();
+	}
+}
