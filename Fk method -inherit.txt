@@ -1,0 +1,8 @@
+class FwParent{  
+  final void run(){System.out.println("running");}  
+}  
+class FinalKeyword extends FwParent{  
+   public static void main(String args[]){  
+    new FinalKeyword().run();  
+   }  
+}

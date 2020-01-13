@@ -1,0 +1,21 @@
+class FinalKeyword {
+	
+	 void run()
+	 {
+		 final int speedLimit=400;
+		 System.out.println(speedLimit);
+	 }
+	 void run2()
+	 {
+		 speedLimit=90; //cant be changed here
+		 System.out.println(speedLimit);
+	 }
+	 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+FinalKeyword fw=new FinalKeyword();
+fw.run();
+fw.run2();
+	}
+
+}

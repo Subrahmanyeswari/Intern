@@ -1,0 +1,13 @@
+class Classconstructor {
+	
+	 Classconstructor()
+		{
+			System.out.println("constructor");
+		}
+		
+	public static void main(String[] args)
+	{
+		Classconstructor c=new Classconstructor();
+		
+	}
+	}

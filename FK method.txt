@@ -1,0 +1,23 @@
+class FwParent
+{
+	final void run()
+	{
+		System.out.println("this method is invoked");
+	}
+}
+
+class FinalKeyword extends FwParent
+{
+	
+	void run()   //final method cant be overridden
+	{
+	
+		System.out.println("cant be overridden");
+	}
+	public static void main(String[] args)
+	{
+		FinalKeyword fw=new FinalKeyword();
+		fw.run();
+	}
+	
+}

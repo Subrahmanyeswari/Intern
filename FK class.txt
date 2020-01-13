@@ -1,0 +1,22 @@
+final class FwParent
+{
+}
+class FinalKeyword extends FwParent
+{
+	public static void main(String[] args)
+	{
+		System.out.println("cant inherit the final class");
+	}
+}
+*/
+
+//can't be Overridden but can Inherited  
+/*
+class FwParent{  
+  final void run(){System.out.println("running");}  
+}  
+class FinalKeyword extends FwParent{  
+   public static void main(String args[]){  
+    new FinalKeyword().run();  
+   }  
+}
